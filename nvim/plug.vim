@@ -30,6 +30,7 @@ if has("nvim")
 
   Plug 'folke/which-key.nvim'
 
+  Plug 'lervag/vimtex'
 endif
 
 call plug#end()

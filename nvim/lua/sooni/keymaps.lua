@@ -18,6 +18,9 @@ vim.g.maplocalleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
+
+-- Zathura --
+keymap("n", "<leader>z", ":!zathura <C-r>=expand('%:r')<cr>.pdf &<cr>", opts)
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
