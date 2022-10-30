@@ -29,6 +29,7 @@ if has("nvim")
   Plug 'hoob3rt/lualine.nvim' "Status bar
 
   Plug 'folke/which-key.nvim'
+
 endif
 
 call plug#end()
