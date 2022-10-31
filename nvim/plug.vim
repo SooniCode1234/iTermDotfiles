@@ -23,6 +23,7 @@ if has("nvim")
 
   Plug 'L3MON4D3/LuaSnip' "Snippet engine
   Plug 'rafamadriz/friendly-snippets' "A bunch of snippets to use
+  Plug 'saadparwaiz1/cmp_luasnip'
 
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} "highlighting
 
